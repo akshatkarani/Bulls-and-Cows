@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Your guess</th>
+            <th>bulls</th>
+            <th>cows</th>
+        </tr>
+    {{ range . }}
+    <tr>
+        <td> {{ .Guess }} </td>
+        <td> {{ .Bulls }} </td>
+        <td> {{ .Cows }} </td>
+    </tr>
+    {{ end }}
+    </table>
+
+    <form method="POST">
+            Enter Your next guess
+            <input type="text" name="guess">
+            <input type="submit">
+    </form>
+
+</body>
+</html>
