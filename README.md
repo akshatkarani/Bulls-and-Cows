@@ -12,4 +12,4 @@ Clone the repository and run
 
 `go run *.go`
 
-Then open 127.0.0.1:9000 in your browser
+Then open `127.0.0.1:9000` in your browser.
