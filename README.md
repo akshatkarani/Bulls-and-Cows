@@ -9,5 +9,7 @@ A bull is a digit which is in the same position in both the secret code and your
 ### Setup
 
 Clone the repository and run
+
 `go run *.go`
+
 Then open 127.0.0.1:9000 in your browser
